@@ -54,12 +54,27 @@ body {
   padding-bottom: 20px;
 }
 
-.left {
-	float: left;
-	width: 45%;
+.btn-primary {
+	background-color: #ffaf46;
+	border-color: #ffaf46;
+	color: black;
 }
 
-.right{
-	float: right;
-	width: 45%;
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary{
+	background-color: #ff9000;
+	border-color: #ff9000;
+	color: black;
 }
+
+.navbar-inverse{
+	background-color: #2681b2;
+	border-color: #2681b2;
+}
+
+.navbar-inverse .navbar-nav > li > a{
+	color: white;
+}
+
+/*.jumbotron{
+	background-color: #ffaf46;
+}*/
