@@ -53,3 +53,13 @@ body {
   padding-top: 50px;
   padding-bottom: 20px;
 }
+
+.left {
+	float: left;
+	width: 45%;
+}
+
+.right{
+	float: right;
+	width: 45%;
+}
