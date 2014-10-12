@@ -1,23 +1,5 @@
-/* reset */
-
-/* reset */
-* {
-	margin: 0;
-	padding: 0;
-	border: 0;
-}
-
 html, body {
 	height: 100%;
-}
-
-body{
-	line-height: 100%
-}
-
-p {
-	margin-top: 0.5em;
-	margin-bottom: 0.5em;
 }
 
 code, pre {
@@ -34,18 +16,6 @@ article{
 header {
 	margin-top: 50px;
 	margin-bottom: 40px;
-}
-
-h1, p{
-	font-family: sans-serif;
-}
-
-h1 {
-	font-size: 40px;
-}
-
-p {
-	font-size: 16px;
 }
 
 /* Move down content because we have a fixed navbar that is 50px tall. From jumbotron.css */
@@ -77,4 +47,4 @@ body {
 
 /*.jumbotron{
 	background-color: #ffaf46;
-}*/
+}
